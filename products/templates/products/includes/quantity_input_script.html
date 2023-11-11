@@ -1,4 +1,5 @@
 <script type="text/javascript">
+
     /* 
     * Disable +/- buttons outside 1-99 range.
     * If no size is passed to the function, the parameter will have a value of undefined by default,
@@ -13,7 +14,7 @@
 
         var minusDisabled = currentValue < 2;
         var plusDisabled = currentValue > 98;
-    
+
         if (size) {
             $(`.decrement-size_${itemId}_${size}`).prop('disabled', minusDisabled);
             $(`.increment-size_${itemId}_${size}`).prop('disabled', plusDisabled);
@@ -37,7 +38,6 @@
         var size = $(this).data('size');
         handleEnableDisable(itemId, size);
     });
-
 
     // Increment quantity
     $('.increment-qty').click(function(e) {
