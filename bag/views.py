@@ -11,7 +11,7 @@ def view_bag(request):
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
-    quantity = int(request.POST.get('quantity'))
+    quantity = int(request.POST.get('quantity' or 0))
     redirect_url = request.POST.get('redirect_url')
     size = None
     if 'product_size' in request.POST:
@@ -40,7 +40,7 @@ def add_to_bag(request, item_id):
 def adjust_bag(request, item_id):
     """ Adjus the quantity of the specified product to the amount specified """
 
-    quantity = int(request.POST.get('quantity'))
+    quantity = int(request.POST.get('quantity' or 0))
     size = None
     if 'product_size' in request.POST:
         size = request.POST['product_size']
