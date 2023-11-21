@@ -3,11 +3,24 @@ html {
 }
 
 body {
-    background: url('/media/IMG_9767.JPG') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
+    height: 100%;
     color: #000;
     font-family: 'Oswald', cursive, sans-serif;
+}
+
+.winpea-logo { 
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    text-indent: -9999px;
+}
+
+.background {
+    background-image: url('/media/coverphoto.jpg');
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* from Bulma */
@@ -61,6 +74,9 @@ body {
     color: white;
 }
 
+.text-white{
+    color: #fff !important
+}
 .text-black {
     color: #000 !important;
 }
