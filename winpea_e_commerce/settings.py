@@ -15,7 +15,7 @@ import os
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['pp5-winpea-c20cdf8bb1f3.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['pp5-winpea-c20cdf8bb1f3.herokuapp.com', '8000-lewishaz-cipp5winpea-ytciyjuj8rq.ws-eu106.gitpod.io', 'localhost']
 
 
 # Application definition
