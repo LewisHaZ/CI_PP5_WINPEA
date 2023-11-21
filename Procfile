@@ -1,0 +1,1 @@
+web: gunicorn winpea_e_commerce.wsgi:application
