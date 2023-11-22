@@ -18,9 +18,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon-16x16.png' %}">
-        <link rel="icon" type="img/png" sizes="16x16" href="{% static 'img/favicon-16x16.png' %}">
-        <link rel="icon" type="img/png" sizes="32x32" href="{% static 'img/favicon-32x32.png' %}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{MEDIA_URL}}/img/apple-touch-icon.png">
+        <link rel="icon" type="img/png" sizes="16x16" href="{{MEDIA_URL}}/img/favicon-16x16.png">
+        <link rel="icon" type="img/png" sizes="32x32" href="{{MEDIA_URL}}/img/favicon-32x32.png">
     {% endblock %}
 
     {% block extra_css %}
@@ -45,7 +45,7 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
               <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                <img src="{{ MEDIA_URL }}/favicon-32x32.png" alt="winpea logo">
+                <img src="{{ MEDIA_URL }}/img/favicon-32x32.png" alt="winpea logo">
                 <small class="text-black text-uppercase">Genderless, borderless & ageless</small>
               </a>
           </div>
