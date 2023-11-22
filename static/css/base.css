@@ -114,6 +114,47 @@ body {
     border-radius: 50%;
   }
 
+/* meet team section */ 
+/* makes a circle container for images */
+.circle{
+    border: 3px solid #000;
+    border-radius: 50%;
+    z-index: 2;
+    background-image: url('/media/diamond-effect.jpg');
+  }
+
+/* layers the image on top of the container */
+.circle img{
+    width: 100%;
+    border-radius: 50%;
+    z-index: 3;
+  }
+
+
+/* text area for the meet team description */
+.meet-profile p{
+    background-color: #000;
+    color: var(--washed-white);
+    padding: 5% 5% 5% 40%;
+    margin-left: -35%;
+    z-index: -1;
+  }
+  
+
+  /* align the titles for team members name */
+.meet-profile2 h4{
+    text-align: right;
+  }
+  
+  /* text area for the meet team description but aligned to left side */
+  .meet-profile2 p{
+    background-color: #000;
+    color: var(--washed-white);
+    padding: 5% 40% 5% 5%;
+    margin-right: -35%;
+    z-index: -1;
+  }
+  
 /* thematic break styling, used to break up content in several sections of the website */
 hr {
     border-top: 5px solid #3a3a3a;
