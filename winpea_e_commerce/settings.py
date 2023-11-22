@@ -13,21 +13,29 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
+if os.path.isfile("env.py"):
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY')
+
+development = os.environ.get('DEVELOPMENT', False)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = development
 
-ALLOWED_HOSTS = ['pp5-winpea-c20cdf8bb1f3.herokuapp.com', '8000-lewishaz-cipp5winpea-ytciyjuj8rq.ws-eu106.gitpod.io', 'localhost']
+if development:
+    ALLOWED_HOSTS = ['8000-lewishaz-cipp5winpea-ytciyjuj8rq.ws-eu106.gitpod.io',
+                    'localhost', '127.0.0.1', '127.0.0.1:8000']
+else:
+    ALLOWED_HOSTS = ['https://pp5-winpea-c20cdf8bb1f3.herokuapp.com', '*']
 
 
 # Application definition
