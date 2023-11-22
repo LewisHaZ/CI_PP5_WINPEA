@@ -18,6 +18,7 @@ body {
 .background {
     background-image: url('/media/coverphoto.jpg');
     height: 100%;
+    width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,11 +301,11 @@ input[name='q']::placeholder{
 /* pad the top when the navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 80px;
     }
 
     body {
-        height: calc(100vh - 116px);
+        height: 100%;
     }
 
     .display-4.logo-font.text-black {
