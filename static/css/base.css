@@ -34,9 +34,91 @@ body {
     background-size: cover;
 }
 
-.about-content{
+.about-content {
     padding-top: 100px;
     text-align: center;
+}
+
+/* brand ethos */
+#brand-ethos{
+    height:auto;
+  }
+  
+  #left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+  }
+  
+  #right-about{
+    padding-top: 30px;
+    width: 33%;
+    float:right;
+  }
+  
+  #center-about{
+    width: 33%;
+    margin: 0 auto;
+  }
+  
+  .left-about-heading{
+    width: 60%;
+    float:right;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .right-about-heading{
+    width: 60%;
+    float:left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .right-about-heading h3{
+    text-align: right;
+  }
+  
+  .left-about-heading p{
+    color: #fff;
+  }
+  
+  .right-about-heading p{
+    text-align: right;
+    color: #fff;
+  }
+  
+  .bg-effect {
+    background: #000;
+  }
+
+  /* central image container with styling and background image applied */
+  #circle-container{
+    width: 280px;
+    height: 280px;
+    padding: 25px;
+    border-style: solid;
+    background-image: url('/media/diamond-effect.jpg');
+    border-width: 5px;
+    border-radius: 100%;
+    margin: 0 auto;
+  }
+  
+  #circle-cover-bg{
+    background: url('/media/winpea-small.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+/* thematic break styling, used to break up content in several sections of the website */
+hr {
+    border-top: 5px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
 
 /* from Bulma */
@@ -337,6 +419,46 @@ input[name='q']::placeholder{
     0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
     50%  { opacity: 1;  }
     100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  }
+
+/* media queries for smaller sized screens */
+@media screen and (max-width: 1200px){
+    #brand-ethos{
+        width: 90%;
+        height:1200px;
+        margin: 0 auto;
+        margin-bottom: 20%;
+        font-size: 0.75rem;
+    }
+    #left-about, #right-about{
+      width: 100%;
+      float: left;
+      padding: 0;
+      font-size: 0.75rem;
+  }
+  
+  #center-about{
+      clear: both;
+      width: 100%;
+      float: left;
+      padding: 0;
+  }
+  /* disable thematic break element */
+  hr{
+      display: none;
+  }
+  
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+    }
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px;
+    }
   }
 
 /* fixed top navbar only on medium and up */

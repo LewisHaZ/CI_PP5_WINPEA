@@ -16,34 +16,56 @@
             <div class="col-7 col-md-6 my-auto">
                 <h1 class="display-4 logo-font text-white">The new collections are here</h1>
                 <div class="my-5">
-                    <h4>
+                    <h2>
                         <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
+                    </h2>
                 </div>
             </div>
         </div>
     </div>
+    <a href="#section-2">
+        <div class="scroll-down"></div>
+    </a>
     
-<a href="#about">
-    <div class="scroll-down" id="about"></div>
-</a>
-
-<div class="about-section">
-    <div class="about-content col-12">
-            <h5 class="display-4 logo-font text-white">About Winpea</h5>
-            <p class="logo-font text-black">ご覧いただきありがとうございます。
-
-                イギリスを拠点にヨーロッパで集めたパーツを繋げ、一点物アクセサリーを製作しています。
-                
-                デザインやコンセプトはもちろん、
-                素材、耐久性、実用性についてもこだわり、
-                様々な用途で、長く使っていただけるアクセサリー作りをしています。
-                
-                Winpeaが、
-                ファッションを楽しむ・世界を楽しむ
-                きっかけになりますように。 
-            </p>
+    <!-- Page header-->
+    <div class="d-flex justify-content-center py-3 text-white bg-effect" id="section-2">
+        <h3>Welcome to Winpea!</h3>
+    </div>
+    <div class="about-section text-black py-3">
+        <div id="brand-ethos">
+            <!--Left side panel-->
+            <div id="left-about">
+                <div class="left-about-heading">
+                    <h2>Why us <i class="fa-solid fa-thumbs-up"></i></h2>
+                    <hr>
+                    <p>
+                    At Winpea we work to ensure our products are of the highest quality.
+                    We strive to make our range available to all with our 4 free brand concept.
+                    All of our designs are original but take inspiration from a range of cultures across the globe.
+                    </p>
+                </div>
+            </div>
+            <!--Right side panel-->
+            <div id="right-about">
+                <div class="right-about-heading">
+                    <h2>Delivery & Shipping <i class="fa-solid fa-truck-fast"></i></h2>
+                    <hr>
+                    <p>
+                    We offer worldwide shipping with courier services being provided for each respective country we are able to deliver to.
+                    This process can takes 3-5 business days for Domestic delivery (inside Japan) and up to 2 weeks for International
+                    delivery.
+                    </p>
+                </div>
+            </div>
+            <!--Center panel-->
+            <div id="center-about">
+                <div id="circle-container">
+                    <div id="circle-cover-bg">
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </div>
 </div>
 {% endblock %}
