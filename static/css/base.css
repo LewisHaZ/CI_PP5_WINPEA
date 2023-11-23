@@ -61,8 +61,7 @@ body {
   .left-about-heading{
     width: 60%;
     float:right;
-    line-height: 50px;
-    font-size: 50px;
+    line-height: 20px;
     clear:both;
     margin-bottom: 50px;
     color: #fff;
@@ -73,9 +72,7 @@ body {
   .right-about-heading{
     width: 60%;
     float:left;
-    line-height: 50px;
-    font-size: 49px;
-    line-height: 50px;
+    line-height: 20px;
     clear:both;
     margin-bottom: 50px;
     color: #fff;
@@ -494,7 +491,7 @@ input[name='q']::placeholder{
     clear:both;
     margin-bottom: 50px;
     color: #fff;
-    background: #007bff;
+    background: #000;
   }
   .right-about-heading p, .left-about-heading p {
     font-size: 20px;
@@ -511,7 +508,7 @@ input[name='q']::placeholder{
         clear:both;
         margin-bottom: 50px;
         color: #fff;
-        background: #007bff;
+        background: #000;
     }
     .left-about-heading h2, .right-about-heading h2{
         width: 100%;
