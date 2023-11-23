@@ -61,19 +61,26 @@ body {
   .left-about-heading{
     width: 60%;
     float:right;
-    line-height: 20px;
+    line-height: 50px;
+    font-size: 50px;
     clear:both;
     margin-bottom: 50px;
     color: #fff;
+    background: #007bff;
+    padding: 1em;
   }
   
   .right-about-heading{
     width: 60%;
     float:left;
-    line-height: 20px;
+    line-height: 50px;
+    font-size: 49px;
+    line-height: 50px;
     clear:both;
     margin-bottom: 50px;
     color: #fff;
+    background: slategray;
+    padding: 1em;
   }
   
   .right-about-heading h3{
@@ -480,6 +487,18 @@ input[name='q']::placeholder{
       padding: 0;
       
   }
+  .right-about-heading, .left-about-heading{
+    width: 70%;
+    float:left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+    color: #fff;
+    background: #007bff;
+  }
+  .right-about-heading p, .left-about-heading p {
+    font-size: 20px;
+  }
   /* disable thematic break element */
   hr{
       display: none;
@@ -487,6 +506,12 @@ input[name='q']::placeholder{
   
     .left-about-heading, .right-about-heading{
         width: inherit;
+        float:left;
+        line-height: 20px;
+        clear:both;
+        margin-bottom: 50px;
+        color: #fff;
+        background: #007bff;
     }
     .left-about-heading h2, .right-about-heading h2{
         width: 100%;
