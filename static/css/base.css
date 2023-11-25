@@ -13,6 +13,7 @@ a {
     color: black;
 }
 
+
 .winpea-logo { 
     width: 100px; 
     height: 100px; 
@@ -333,13 +334,6 @@ input[name='q']::placeholder{
     overflow-x: hidden;
     overflow-y: auto;
 }
-
-/* #mc_embed_signup{
-    background:#fff;
-    clear: left;
-    font: 14px Helvetica,Arial,sans-serif; 
-    width: 600px;
-} */
 
 /* -------------------------------- Media Queries */
 

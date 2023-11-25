@@ -14,7 +14,7 @@
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-white">The new collections are here</h1>
+                <h1 class="display-4 logo-font text-white">Welcome to the world of Winpea...</h1>
                 <div class="my-5">
                     <h2>
                         <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
@@ -72,17 +72,17 @@
     </div>
             <!--Meet the team section -->
             <div class="circle-left d-flex row align-items-center my-5 gx-0">
-                <!--Circular image for each member of the team styled left, then right respectively-->
+              
             <div class="col-md-6 col-lg-4 p-5 circle">
                 <div>
-                    <!--Image for Fuka Sakaji-->
-                <img src="{{MEDIA_URL}}/fuka-meet-team.jpg"  alt="photo of Fuka Sakaji">
+                    <!--Image for Fuka Hazelwood-->
+                <img src="{{MEDIA_URL}}/fuka-meet-team.jpg" alt="photo of Fuka Hazelwood">
                 </div>
             </div>
-            <!--Text for Fuka Sakaji section-->
+            <!--Text for Fuka Hazelwood section-->
             <div class="col-md-6 col-lg-8 allign-items-center meet-profile">
                 <h3 class="ps-4">
-                Fuka Sakaji
+                Fuka Hazelwood
                 <br>
                 Brand Owner
                 </h3>
@@ -92,36 +92,35 @@
             </div>
         </div>
         <hr>
-        <!--Momoka Sakaji meet me section-->
-        <div class="circle-right d-flex row align-items-center my-5 gx-0">
-            <div class="order-2 order-md-1 col-md-6 col-lg-8 allign-items-center meet-profile">
-                <h3 class="ps-4">
-                Momoka Sakaji
-                <br>
-                Co-Owner
-                </h3>
-                <p>
-                Meet Momoka, the co-owner of the Winpea brand.
-                </p>
-            </div>
-            <!--Image for Momoka Sakaji-->
-            <div class="order-1 order-md-2 col-md-6 col-lg-4 p-5 circle">
-                <div>
-                    <img src="{{MEDIA_URL}}/momo-meet-team.png" class="" alt="photo of Momoka Sakaji">
-                </div>
+        <div class="circle-left d-flex row align-items-center my-5 gx-0">
+            <div class="col-md-6 col-lg-4 p-5 circle">
+            <div>
+                <!--Image for Momoka Sakaji-->
+            <img src="{{MEDIA_URL}}/momo-meet-team.png"  alt="photo of Momoka Sakaji">
             </div>
         </div>
+        <!--Text for Momoka Sakaji section-->
+        <div class="col-md-6 col-lg-8 align-items-center meet-profile">
+            <h3 class="ps-4">
+            Momoka Sakaji
+            <br>
+            Website Developer
+            </h3>
+            <p>
+            Meet Momo, the co-owner of Winpea.
+            </p>
+        </div>
+    </div>
         <hr>
-<div class="circle-left d-flex row align-items-center my-5 gx-0">
-            <!--Circular image for each member of the team styled left, then right respectively-->
-        <div class="col-md-6 col-lg-4 p-5 circle">
+        <div class="circle-left d-flex row align-items-center my-5 gx-0">
+            <div class="col-md-6 col-lg-4 p-5 circle">
             <div>
                 <!--Image for Lewis Hazelwood-->
-            <img src="{{MEDIA_URL}}/lewis-hazelwood.jpg" class="" alt="photo of Lewis Hazelwood">
+            <img src="{{MEDIA_URL}}/lewis-hazelwood.jpg" alt="photo of Lewis Hazelwood">
             </div>
         </div>
         <!--Text for Lewis Hazelwood section-->
-        <div class="col-md-6 col-lg-8 allign-items-center meet-profile">
+        <div class="col-md-6 col-lg-8 align-items-center meet-profile">
             <h3 class="ps-4">
             Lewis Hazelwood
             <br>
@@ -134,4 +133,7 @@
     </div>
         <hr>
 </div>
+
 {% endblock %}
+
+
