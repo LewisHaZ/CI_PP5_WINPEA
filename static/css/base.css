@@ -1,14 +1,17 @@
 html {
     height: 100%;
-    scroll-behavior: smooth;
 }
 
 body {
-    height: 100%;
+    height: calc(100vh - 164px);
     color: #000;
     font-family: 'Oswald', cursive, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .winpea-logo { 
     width: 100px; 
@@ -250,6 +253,7 @@ a.category-badge > span.badge:hover {
     position: fixed;
     bottom: 10px;
     right: 10px;
+    z-index: 123;
 }
 
 .btt-link,
@@ -329,6 +333,13 @@ input[name='q']::placeholder{
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+/* #mc_embed_signup{
+    background:#fff;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif; 
+    width: 600px;
+} */
 
 /* -------------------------------- Media Queries */
 
