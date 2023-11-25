@@ -35,7 +35,7 @@ if development:
     ALLOWED_HOSTS = ['8000-lewishaz-cipp5winpea-yv4rg1lt4ey.ws-eu106.gitpod.io',
                     'localhost', '127.0.0.1', '127.0.0.1:8000']
 else:
-    ALLOWED_HOSTS = ['https://pp5-winpea-c20cdf8bb1f3.herokuapp.com', '*']
+    ALLOWED_HOSTS = ['pp5-winpea-c20cdf8bb1f3.herokuapp.com', '*']
 
 
 # Application definition
