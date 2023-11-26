@@ -1,3 +1,4 @@
+// CSS manipulation on country field
 let countrySelected = $('#id-default_country').val();
         if(!countrySelected){
             $('#id_default_country').css('color', '#aab7c4');

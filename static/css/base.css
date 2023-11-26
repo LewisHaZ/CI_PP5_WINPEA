@@ -1,3 +1,4 @@
+/* Setting up page formatting */
 html {
     height: 100%;
 }
@@ -8,12 +9,13 @@ body {
     font-family: 'Oswald', cursive, sans-serif;
 }
 
+/* Anchor tag to display as black with no underlines */
 a {
     text-decoration: none;
     color: black;
 }
 
-
+/* Adjusting logo */
 .winpea-logo { 
     width: 100px; 
     height: 100px; 
@@ -21,6 +23,7 @@ a {
     text-indent: -9999px;
 }
 
+/* Setting background for landing page */
 .background {
     background-image: url('/media/coverphoto.jpg');
     height: 100%;
@@ -30,6 +33,7 @@ a {
     background-size: cover;
 }
 
+/* Setting image for about section */
 .about-section {
     background-image: url('/media/IMG_9767.JPG');
     height: 100%;
@@ -41,6 +45,7 @@ a {
 
 
 /* brand ethos */
+/* This section includes the about section & its content */
 #brand-ethos{
     height:auto;
   }
@@ -97,6 +102,7 @@ a {
     color: #fff;
   }
   
+  /* Setting background for object to black */
   .bg-effect {
     background: #000;
   }
@@ -176,37 +182,41 @@ hr {
     width: 1.5rem;
 }
 
+/* capitalises the text */
 .logo-font {
     text-transform: uppercase;
 }
 
+/* fit logo to width */
 .main-logo-link {
     width: fit-content;
 }
 
+/* set button colours and size */
 .shop-now-button {
     background: #000;
     color: #fff;
     min-width: 260px #fff;
 }
+/* set colour for an element */
 .btn-black {
     background: #000;
     color: #fff;
 }
-
+/* set outline for an element */
 .btn-outline-black {
     background: #fff;
     color: #000 !important; /* use important to override link colors for <a> elements */
     border: 1px solid #000;
 }
-
+/* hover behaviour on button */
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
     color: white !important;
 }
-
+/* hover behaviour on shop now button */
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -216,22 +226,23 @@ hr {
     background: #222;
     color: white;
 }
-
+/* set text to white */
 .text-white{
     color: #fff !important
 }
+/* set text to black */
 .text-black {
     color: #000 !important;
 }
-
+/* set border to black */
 .border-black {
     border: 1px solid black !important;
 }
-
+/* set bg to black */
 .bg-black{
     background: #000 !important;
 }
-
+/* overlay styling */
 .overlay {
     height: 100%;
     width: 100%;
@@ -247,7 +258,7 @@ a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
-
+/*  button styling */
 .btt-button {
     height: 42px;
     width: 42px;
@@ -257,6 +268,7 @@ a.category-badge > span.badge:hover {
     z-index: 123;
 }
 
+/* show cursor when hovering over element */
 .btt-link,
 .update-link,
 .remove-item {
@@ -414,7 +426,7 @@ input[name='q']::placeholder{
     opacity: 0;
     cursor: pointer;
 }
-
+/* checkbox on product management page */
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
     border-color: #dc3545;
@@ -426,6 +438,7 @@ input[name='q']::placeholder{
     border-radius: 0;
 }
 
+/* arrow for scroll down animation */
 .scroll-down {
     position: absolute;
     left: 50%;

@@ -54,7 +54,7 @@ def add_to_bag(request, item_id):
 
 
 def adjust_bag(request, item_id):
-    """ Adjus the quantity of the specified product to the amount specified """
+    """ Adjust the quantity of the specified product to the amount specified """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity' or 0))

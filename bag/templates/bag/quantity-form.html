@@ -1,3 +1,4 @@
+<!-- Form for adding and removing quantity -->
 <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
     {% csrf_token %}
     <div class="form-group">
@@ -24,11 +25,13 @@
                     </span>
                 </button>
             </div>
+            <!-- If statement for sizes being part of product -->
             {% if item.product.has_sizes %}
                 <input type="hidden" name="product_size" value="{{ item.size }}">
             {% endif %}
         </div>
     </div>
 </form>
+<!-- Buttons for update/remove -->
 <a class="update-link text-info"><small>Update</small></a>
 <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>

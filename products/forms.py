@@ -3,6 +3,11 @@ from .widgets import CustomClearableFileInput
 from .models import Product, Category
 
 
+"""
+A class to set up the product
+form and the fields necessary to run
+it.
+"""
 class ProductForm(forms.ModelForm):
 
     class Meta:

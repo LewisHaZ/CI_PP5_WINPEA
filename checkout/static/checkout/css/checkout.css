@@ -1,3 +1,4 @@
+/* CSS Elements taken from Stripe */
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
@@ -46,6 +47,7 @@ select option[value]{
   color: #aab7c4 !important;
 }
 
+/* Loading animation after user has pressed checkout */
 #loading-overlay {
 	display: none;
 	position: fixed;

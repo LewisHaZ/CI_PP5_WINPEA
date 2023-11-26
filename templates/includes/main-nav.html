@@ -1,15 +1,19 @@
+<!-- Main nav bar-->
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <!-- Mobile only view for home button -->
         <li class="nav-item d-block d-md-none">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
                 Home
             </a>
         </li>
+        <!-- blog -->
         <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'blog' %}">
                 Blog
             </a>
         </li>
+        <!-- Dropdown nav for product filters & all products -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -21,7 +25,7 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
-
+        <!-- Dropdown nav for bags -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="bags-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Bags
@@ -34,7 +38,7 @@
                 <a href="{% url 'products' %}?category=Tote,Crossbody,Shoulder,Mini" class="dropdown-item">All Bags</a>
             </div>
         </li>
-
+        <!-- Drodown nav for jewellery -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="jewellery-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Jewellery
@@ -46,7 +50,7 @@
                 <a href="{% url 'products' %}?category=Rings,Necklaces,Bracelets" class="dropdown-item">All Jewellery</a>
             </div>
         </li>
-
+        <!-- Dropdown nav for specials -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers

@@ -13,10 +13,10 @@ from bag.contexts import bag_contents
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 
-
-
-
-
+"""
+Variable to request our data for
+checkout and post it to Stripe
+"""
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -33,7 +33,11 @@ def cache_checkout_data(request):
             processed right now. Please try again later.')
         return HttpResponse(content=e, status=400)
 
-
+"""
+Variable to handle the data being passed
+through and keys necessary to process the
+payment from the user
+"""
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
@@ -72,14 +76,14 @@ def checkout(request):
                         order_line_item.save()
                     else:
                         for \
-                             size, quantity in item_data['items_by_size'].items():
-                            order_line_item = OrderLineItem(
+                            size, quantity in item_data['items_by_size'].items():
+                                order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
                                 quantity=quantity,
                                 product_size=size,
                             )
-                            order_line_item.save()
+                                order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in \
