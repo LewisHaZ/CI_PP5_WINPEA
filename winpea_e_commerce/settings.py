@@ -50,13 +50,13 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'django_summernote',
     'rangefilter',
-    'book_a_slot',
     'home',
     'products',
     'bag',
     'checkout',
     'profiles',
     'blog',
+    'book_a_slot',
     'contactus',
 
     # Other
