@@ -1,7 +1,7 @@
-# 3rd Party Imports
+# 3RD PARTY IMPORTS
 from django.urls import path
 
-# Internal
+# LOCAL IMPORTS
 from . import views
 
 urlpatterns = [

@@ -1,4 +1,4 @@
-# 3rd Party Imports
+# 3RD PARTY IMPORTS
 from django.db import models
 from django.contrib.auth.models import User
 

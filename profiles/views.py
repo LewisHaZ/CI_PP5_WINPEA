@@ -1,9 +1,10 @@
+# 3RD PARTY IMPORTS 
 from django.shortcuts import render, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+# LOCAL IMPORTS
 from .models import UserProfile
 from .forms import UserProfileForm
-
 from checkout .models import Order
 
 @login_required

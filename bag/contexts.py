@@ -1,8 +1,8 @@
-# 3rd party Imports
+# 3RD PARTY IMPORTS
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
-# Internal Imports
+# LOCAL IMPORTS
 from products.models import Product
 
 """

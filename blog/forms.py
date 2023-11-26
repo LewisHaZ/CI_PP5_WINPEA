@@ -1,6 +1,6 @@
-# 3rd Party Imports
+# 3RD PARTY IMPORTS
 from django import forms
-# Internal
+# LOCAL IMPORTS
 from . models import Comment
 
 

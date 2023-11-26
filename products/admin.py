@@ -1,6 +1,8 @@
+# 3RD PARTY IMPORTS
 from django.contrib import admin
+# LOCAL IMPORTS
 from .models import Product, Category
-# Register your models here.
+
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = (

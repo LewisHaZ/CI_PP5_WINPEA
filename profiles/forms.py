@@ -1,4 +1,6 @@
+# 3RD PARTY IMPORTS
 from django import forms
+# LOCAL IMPORTS 
 from .models import UserProfile
 
 

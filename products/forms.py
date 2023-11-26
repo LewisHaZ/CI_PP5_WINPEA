@@ -1,5 +1,7 @@
+# 3RD PARTY IMPORTS
 from django import forms
 from .widgets import CustomClearableFileInput
+# LOCAL IMPORTS
 from .models import Product, Category
 
 
