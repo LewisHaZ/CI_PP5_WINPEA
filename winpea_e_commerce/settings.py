@@ -27,16 +27,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-development = os.environ.get('DEVELOPMENT', False)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = development
+DEBUG = True
 
-if development:
-    ALLOWED_HOSTS = ['8000-lewishaz-cipp5winpea-ebbvkn5jizo.ws-eu106.gitpod.io',
-                    'localhost', '127.0.0.1', '127.0.0.1:8000']
-else:
-    ALLOWED_HOSTS = ['pp5-winpea-c20cdf8bb1f3.herokuapp.com', '*']
+ALLOWED_HOSTS = ['pp5-winpea-c20cdf8bb1f3.herokuapp.com', '*']
 
 
 # Application definition
