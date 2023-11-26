@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+<!-- Blog posts -->
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-md-8 mx-auto mt-5 p-3 rounded">
+            <div class="col-md-8 col-lg-6 mx-auto bg-light mt-5 rounded p-3">
+                {% if 'placeholder' in post.featured_image.url %}
+                    <a href="{% url 'post_expand' post.slug %}"><img
+                            src="{% static 'images/image-blog-model.webp' %}"
+                            class="card-img-top rounded" alt="A Woman wearing jewellery"></a>
+                    {% else %}
+                    <a href="{% url 'post_expand' post.slug %}"><img src="{{ post.featured_image.url }}" class="card-img-top rounded"
+                            alt="Post featured image"></a>
+                    {% endif %}
+            <h1>{{ post.title }}</h1>
+            {{ post.content| safe }}
+            {{ post.image.url }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Comments -->
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        {% for comment in comments %}
+        <div class="col-md-8 col-lg-6 mx-auto bg-light p-3 mt-3 mb-3">
+            <h6>{{ comment.name }}</h6>
+            {{ comment.body | linebreaks }}
+            {{ comment.created_date }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Add comment -->
+<div class="container-fluid">
+
+    {% if commented %}
+    <div class="alert alert-success col-md-3 mx-auto mt-3 mb-3 p-3" role="alert">
+       <p>Comment is pending approval</p>
+    </div>
+    {% else %}
+
+    {% if not user.is_authenticated %}
+    <div class="text-center p-3">
+        <h3>Comment</h3>
+        <p>Please login to comment on this post</p>
+        <a class="link_color" href="{% url 'account_login' %}">Go to Login
+                Page</a>
+    </div>
+    {% else %}
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6 mx-auto bg-light mt-5 p-3 rounded">
+            <h4>Add a Comment</h4>
+            <p>Post as: {{ user.username }}</p>
+            <form method="POST">
+                {{ comment_form| crispy }}
+                {% csrf_token %}
+                <button type="submit" class="btn btn-success">Comment</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    {% endif %}
+    {% endif %}
+
+</div>
+
+{% endblock content %}
