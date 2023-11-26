@@ -37,6 +37,9 @@ class Post(models.Model):
         Returns self
         """
         return self.title
+        
+    def like_count(self):
+        return self.likes.count()
 
 
 class Comment(models.Model):
