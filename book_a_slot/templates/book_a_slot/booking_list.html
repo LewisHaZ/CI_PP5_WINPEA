@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center mt-3">
+            <!-- Display if user is not logged in -->
+            {% if not user.is_authenticated %}
+            <h3>Message Us</h3>
+            <p>Please login to Contact Us!</p>
+            <button class="btn btn-success" type="submit"><a href="{% url 'account_login' %}">Go to Login
+                    Page</a></button>
+            {% else %}
+            <h2>My Bookings:</h2><hr>
+            {% for booking in booking_page %}
+            <div class="col-md-5">
+                <div class="card mb-5">
+                    <div class="card-body bg-light">
+                        <h5 class="card-title">{{ booking.name }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ booking.requested_date }} at
+                            {{ booking.requested_time }}</h6><br>
+                        <h6 class="card-subtitle mb-2">Booking status: {{ booking.status }}.</h6>
+                        <p class="card-text">No. of Guests: {{ booking.guest_count }}.</p>
+                        <p class="card-text">Product of Interest: {{booking.slot}}</p>
+                        <!-- If booking is expired edit and cancel button will be replaced with an expired button -->
+                        {% if booking.status == 'booking expired' %}
+                        <a href="#" class="btn btn-danger">Expired</a>
+                        {% else %}
+                        <a href="{% url 'edit_booking' booking.pk %}" class="btn btn-success">Edit</a>
+                        <a href="{% url 'cancel_booking' booking.pk %}" class="btn btn-danger">Cancel</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+    <!-- pagination -->
+    <div class="row d-flex my-5 justify-content-center text-center">
+
+        {% if booking_page.has_previous %}
+
+        <a class="link_color" href="?page=1">&laquo First</a>
+        <a class="link_color" href="?page={{ booking_page.previous_page_number }}">Previous</a>
+
+        {% endif %}
+        Page {{ booking_page.number }} of {{booking_page.paginator.num_pages }}
+
+        {% if booking_page.has_next %}
+
+        <a class="link_color" href="?page={{ booking_page.next_page_number }}">Next</a>
+        <a class="link_color" href="?page={{ booking_page.paginator.num_pages }}">Last &raquo</a>
+
+        {% endif %}
+    </div>
+</section>
+
+{%endblock%}
