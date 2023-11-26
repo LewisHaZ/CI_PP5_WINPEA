@@ -1,6 +1,8 @@
+# 3rd party Imports
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
+# Internal Imports
 from products.models import Product
 
 
