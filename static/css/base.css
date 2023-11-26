@@ -226,6 +226,12 @@ hr {
     background: #222;
     color: white;
 }
+
+.link_color{
+    color: #353535;
+    text-decoration: underline;
+}
+
 /* set text to white */
 .text-white{
     color: #fff !important
