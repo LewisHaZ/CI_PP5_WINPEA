@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['pp5-winpea-c20cdf8bb1f3.herokuapp.com', '*']
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
+X_FRAME_OPTIONS = 'DENY'
 
 # Application definition
 
