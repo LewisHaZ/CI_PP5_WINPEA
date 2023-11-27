@@ -142,3 +142,72 @@ Winpea uses Mailchimp to manage its mailing list. By joining the mailing list, u
 - Accessibility: Users will expect the website to be easy to access as well as the in-person store to be easily accessible by all. (e.g. Wheelchair access)
 
 ##### Back to [top](#table-of-contents)<hr>
+
+## User Stories
+
+
+| User Story ID                  | As A/AN             | I CAN...                                                | SO THAT I CAN...                                          |
+|--------------------------------|---------------------|---------------------------------------------------------|-----------------------------------------------------------|
+| Registration and User Accounts ||||
+| 1 | Shopper / Site User | register for an account | have an account and view my profile |
+| 2 | Shopper / Site User | login and logout | have an account with my information stored for fast usage |
+| 3 | Shopper / Site User | recover my password | set a new password if I forgot it                         |
+| 4 | Shopper / Site User | receive an email confirmation after registration| be notified registration was successful                   |
+| 5 | Shopper / Site User | have a profile | store my information for faster checkouts in the future |
+| Viewing and navigation ||||
+| 6 | Shopper / Site User | navigate across the site | can access all parts of the site                          |
+| 7 | Shopper / Site User | use a navbar, footer, and social icons | navigate the site, access menus, and access socials       |
+| 8 | Shopper / Site User | be notified of my actions | be aware the action was completed successfully or not     |
+| 9 | Shopper / Site User | see my login status | know if I am logged in or not |
+| 10 | Shopper / Site User | visit the shop| view all products available |
+| 11 | Shopper / Site User | view my basket and total cost at any time | so I am aware of what I am buying and it's cost |
+| 12 | Shopper / Site User | view a list of products | select a product to purchase                              |
+| 13 | Shopper / Site User | view an individual product details | view a more detailed view of the product |
+| Sorting and Searching ||||
+| 14 | Shopper / Site User | search for a product by name or description | find a certain product                                    |
+| 15 | Shopper / Site User | see my search results | only see what I am searching for |
+| 16 | Shopper / Site User | sort by category | select products of a certain category |
+| 17 | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |
+| 18 | Shopper / Site User | select only available dates/times | I can only select slots that are available |
+| Purchasing and Checkout ||||
+| 19 | Shopper / Site User | use a card as the payment method | complete my purchase                                      |
+| 20 | Shopper / Site User | select the size and quantity of a product | select a size and quantity to my needs |
+| 21 | Shopper / Site User | view items in my basket | be aware of what I am buying and it's cost |
+| 22 | Shopper / Site User | adjust item quantity in my basket | increase or reduce item count according to my needs |
+| 23 | Shopper / Site User | receive order confirmation | be notified of a successful order |
+| 24 | Shopper / Site User | receive email confirmation | have a record of my purchase |
+| Admin and Store Management | | | |
+| 25 | Store Owner / Admin | add a product | add new products to the shop |
+| 26 | Store Owner / Admin | edit a product | edit existing products in the shop |
+| 27 | Store Owner / Admin | delete a product | delete existing products from the shop |
+| 28 | Store Owner / Admin | add a category | add a category to the site |
+| 29 | Store Owner / Admin | edit a category |edit an existing category on the site|
+| 30 | Store Owner / Admin | delete a category | delete existing category from the site |
+| 31 | Store Owner / Admin | add a slot type | add a slot type to the site |
+| 32 | Store Owner / Admin | edit a slot type |edit an existing slot type on the site|
+| 33 | Store Owner / Admin | delete a slot type | delete existing slot type from the site
+| 34 | Shopper / Site User | book a slot | book a slot for a store visit |
+| 35 | Shopper / Site User | edit a slot booking | edit a slot booking as I alter my schedule to visit the store |
+| 36 | Shopper / Site User | delete a slot booking | delete a slot booking if I need to cancel |
+| 37 | Shopper / Site User | view my slot bookings | view my slot booking |
+
+### Kanbans for User Stories
+- GitHub Kanban was used to track all open user stories
+- Todo, In Progress, Done & won't be completed headings were used in the kanban
+
+
+<details><summary>Kanbans Overview</summary>
+
+![Kanban Overview](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/agile/kanbanoverview.png)
+</details>
+
+<details><summary>User Story Complete</summary>
+
+![Kanban Overview](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/agile/kanban-user-story-1.png)
+</details>
+
+<details><summary>User Story Incomplete</summary>
+
+![Kanban Overview](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/agile/kanban-user-story-2.png)
+</details>
+
