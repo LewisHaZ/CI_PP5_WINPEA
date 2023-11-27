@@ -1,110 +1,108 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# eCommerce Website: Winpea
 
-Welcome LewisHaZ,
+![Am I Responsive](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/am-i-responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Site Developer : Lewis Hazelwood**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+💻 [Visit live website](https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/)  
+(Ctrl + click to open in new tab)
 
-## Gitpod Reminders
+## Table of Contents
+  - [Company Summary](#company-summary)
+     - [Market Analysis](#market-analysis)
+     - [Marketing and Sales Strategy](#marketing-and-sales-strategy)
+     - [Operations and Management](#operations-and-management)
+     - [Financial Plan](#financial-plan)
+     - [Conclusion](#conclusion)
+  - [Marketing](#marketing)
+     - [Social Media](#social-media)
+     - [Mailing List](#mailing-list)
+  - [User Goals](#user-goals)
+  - [Site Owner Goals](#site-owner-goals)
+  - [User Experience](#user-experience)
+  - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
+  - [Design](#design)
+    - [Colors](#colors)
+    - [Fonts](#fonts)
+    - [Structure](#structure)
+      - [Website pages](#website-pages)
+      - [AWS](#aws)
+      - [Database](#database)
+      - [Models](#models)
+  - [Technologies Used](#technologies-used)
+  - [Features](#features)
+  - [Validation](#validation)
+  - [Testing](#testing)
+    - [Manual testing](#manual-testing)
+    - [Tests on various devices](#tests-on-various-devices)
+    - [Browser compatibility](#browser-compatibility)
+  - [Bugs](#bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<hr>
 
-`python3 -m http.server`
+## Plan of Action
+### Company Summary:
 
-A blue button should appear to click: _Make Public_,
+Winpea is a company that has both its market in the scope of Physical Shopping and Digital Shopping within an E-Commerce store. The brand itself was made to connect with many cultures around the globe and touch the hearts of many with radiant & original designs based on accessories such as Bags, Bracelets, Neckalces & many more. The site itself will offer a blog showing off newest fashion trends, a place to book a visit to the store if the customer prefers to see the product & 24/7 customer support with a contact page.
 
-Another blue button should appear to click: _Open Browser_.
+The target audience in summary is those who either have a keen interest in collecting items of luxury/grand design or those looking to purchase gifts for loved ones on special occasions. The aim of the site is to provide solutions that benefit every demographic and attract the most customer traffic both in person and online. The site will prove to be user-friendly, initiuitive as well as visually pleasing to the user.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+To summarise, Winpea aims to become to be a one-stop shop for those looking to visit an up-and-coming Jewellery/Fashion brand (either in-person or online) in order to purchase goods for themselves or loved ones.
 
-A blue button should appear to click: _Make Public_,
+### Market Analysis:
 
-Another blue button should appear to click: _Open Browser_.
+The High-street Fashion industry is a very competitive one and as such there is a large market and consumer base to consider. Winpea aims to get ahead of the market trends by offering both the ability to visit the store to make purchases or do so online if that is more convenient to the user. To emphasise how convenient the site will be, there is no need to call up the store to make a booking and it can all be done with the booking system in place on the site.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+When considering competition, there are many high-value luxury brands that exist in a similar context to Winpea and the way in which we aim to be a cut above the rest is to appeal to as many demographics (within our target market scope of those interested in the products) as possible with our price ranging for the products on the store being very generous. This is so as to not gatekeep the range from Winpea and give everyone a chance to experience the products.
 
-To log into the Heroku toolbelt CLI:
+### Marketing and Sales Strategy:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Winpea has many different avenues in places in order to market the brand and company, these involve:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Online Advertising on social media outlets such as Facebook & Instagram
+Steady content stream on the site with our blog/newsletter
+Partnerships and pop-up events in order to boost public relations
 
-------
+The majority of sales will be made through online sales of the products but a cut will also be made through in person purchases at the Winpea store location.
 
-## Release History
+### Operations and Management:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Winpea is a company that is operated by a team of around 10 people currently, this team is comprised of: CEO, Co-Brand Owner, Website Engineer, Store Manager & Store Assistants.
 
-**September 20 2023:** Update Python version to 3.9.17.
+The store will be run both in person with Store Assistants being able to assist customers in person and also as an online store, with the website being able to process transactions for purchases on products and to then have a 3rd party company be used for distribution of the product to their delivery destination.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### Financial Plan:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Winpea will generate revenue through the sale of products in our ecommerce shop and the sales of we make in-store in-person. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers. We will also incur expenses related to the development.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+In terms of financing, Winpea will initially be funded through a combination of personal investment and sponsorships. As the business grows, we will explore additional funding options such as venture capital.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+In terms of projections, we anticipate that there will be a steady increase in profit in the first two years of the company and then a large increase come the third year of running.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Conclusion:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Winpea is a unique and innovative platform that aims to branch out to customers of jewellery and fashion goods, whilst also offering an easy to use platform for booking a visit in-person to purchase products. Winpea has astounding potential within the market scope and we believe with the plan in place there will be great success within this industry for the company.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+##### Back to [top](#table-of-contents)<hr>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Marketing  
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Social Media  
+The web app "winpea" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote currentd trends, post updates on the latest features, and share user-generated content. The Instagram page primarily focuses on showcasing partnership events, highlighting new products in the shop, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "winpea" community.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[Facebook](https://www.facebook.com/profile.php?id=61553764027620)  
+[Instagram](https://www.instagram.com/winpea_world/)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Mailing List  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Winpea uses Mailchimp to manage its mailing list. By joining the mailing list, users will receive updates on new features, upcoming events, and exclusive promotions. The process to join the mailing list is simple, users just need to provide their email address on the website, and they will start receiving email updates. Mailchimp allows the "winpea" team to segment the mailing list, personalize emails and track the success of email campaigns. By joining the mailing list, users will stay informed and be the first to know about new developments in the "winpea" web app.  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<details><summary>See Image</summary>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+![Mailchimp](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-mailing-list-sign-up.png)  
+![Email](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/web-marketing/market-mailchimp.png)
+</details> 
