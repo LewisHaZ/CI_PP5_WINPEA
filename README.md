@@ -214,16 +214,16 @@ Winpea uses Mailchimp to manage its mailing list. By joining the mailing list, u
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Wireframes
-Balsamiq was used for the wireframes for my project. It's very easy to use and allowed me to make mock-ups of the website. I've exported all the wireframes and will link them below.
+Balsamiq was used for the wireframes for my project. It's very easy to use and allowed me to make mock-ups of the website. I've exported all the wireframes and will link them below
 
 <details><summary>Wireframe Home</summary>
 
 ![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-home-pp5-1.png)
 </details>
 
-<details><summary>Wireframe Home</summary>
+<details><summary>Wireframe Blog</summary>
 
-![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-home-pp5-1.png)
+![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-blog-pp5-1.png)
 </details>
 
 <details><summary>Wireframe checkout</summary>
@@ -241,10 +241,65 @@ Balsamiq was used for the wireframes for my project. It's very easy to use and a
 ![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-products-detail-pp5-1.png)
 </details>
 
-
 <details><summary>Wireframe Profile</summary>
 
 ![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-profile-pp5-1.png)
 </details>
 
+<hr>
 
+## Design
+
+### Colors
+The color I chose was black/white to match with the Winpea logo and brand style. I've applied colour to areas I wanted to bring attention to such as the Meet team section
+
+### Fonts
+
+ The font selected was Oswald from Google Fonts with a fallback of sans-serif
+
+# Structure
+
+The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
+
+The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
+It contains an email sign up form and useful links as well as contact information.
+
+## Website pages
+
+- The site consists of the following pages:
+  - Home
+  - Jewellery
+  - Bags
+  - Booking List
+  - Edit Booking
+  - Cancel Booking
+  - Product List
+  - Product Expanded
+  - Basket
+  - Checkout
+  - Checkout Success
+  - Blog
+  - Blog expanded
+  - Contact
+  - Register
+  - Profile
+  - Login
+  - Logout
+  - Reset Password
+  - Register
+  - 404
+
+  ##### Back to [top](#table-of-contents)
+  <hr>
+
+## AWS 
+
+I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
+
+<details><summary>See AWS Images</summary>
+
+![aws bucket](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws-s3-bucket.png)
+![aws media](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws-s3-media.png)
+![aws static](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws-s3-static.png)
+</details>
+<hr>
