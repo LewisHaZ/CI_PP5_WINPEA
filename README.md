@@ -105,4 +105,40 @@ Winpea uses Mailchimp to manage its mailing list. By joining the mailing list, u
 
 ![Mailchimp](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-mailing-list-sign-up.png)  
 ![Email](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/web-marketing/market-mailchimp.png)
-</details> 
+</details>
+
+## User Goals
+
+- To easily and conveniently book a slot to visit the store
+- To browse and purchase a wide range of jewellery/fashion products through the eCommerce shop
+- To access the latest news on fashion trends through the blog
+- To contact the Winpea team with any inquiries or support needs through the contact us page
+
+## Site Owner Goals
+
+- Generate revenue through the sale of products in the ecommerce shop and in-store.
+- Build a strong and loyal customer base by providing an easy-to-use platform and high-quality products
+- Establish Winpea as a trusted and respected brand in the High-street fashion/jewellery industry
+- Achieve profitability and sustain long-term growth
+<hr>
+
+
+## User Experience
+
+### Target Audience
+- Fashionistas who are interested in booking a visit to the store to look at new products and purchase new items/deals
+- Individuals who are looking for information and resources related to fashion and jewellery as indicated by the presence of a blog on the app
+- Those looking to purchase goods for their loved ones through the app's ecommerce shop
+
+### User Requirements and Expectations
+
+- A user-friendly interface: Users will expect the app to be easy to navigate and use, with clear and concise instructions for booking store visits and purchasing products.
+- Reliability: Users will expect the app to be reliable and function smoothly, without any errors or technical issues.
+- Security: Users will expect their personal and financial information to be secure when using the app, and will expect the app to have appropriate measures in place to protect their data.
+- A wide selection of products and slots to book: Users will expect the app to have a wide selection of products and slots available for booking.
+- Accurate and up-to-date information: Users will expect the app to provide accurate and up-to-date information about fashion trends.
+- Competitive prices: Users will expect the prices for the products to be competitive with other options available on the market.
+- Good customer service: Users will expect the app to have good customer service, including responsive and helpful support in the event of any issues or questions.
+- Accessibility: Users will expect the website to be easy to access as well as the in-person store to be easily accessible by all. (e.g. Wheelchair access)
+
+##### Back to [top](#table-of-contents)<hr>
