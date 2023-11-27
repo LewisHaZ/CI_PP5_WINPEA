@@ -211,3 +211,40 @@ Winpea uses Mailchimp to manage its mailing list. By joining the mailing list, u
 ![Kanban Overview](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/agile/kanban-user-story-2.png)
 </details>
 
+##### Back to [top](#table-of-contents)<hr>
+
+## Wireframes
+Balsamiq was used for the wireframes for my project. It's very easy to use and allowed me to make mock-ups of the website. I've exported all the wireframes and will link them below.
+
+<details><summary>Wireframe Home</summary>
+
+![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-home-pp5-1.png)
+</details>
+
+<details><summary>Wireframe Home</summary>
+
+![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-home-pp5-1.png)
+</details>
+
+<details><summary>Wireframe checkout</summary>
+
+![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-checkout-pp5-1.png)
+</details>
+
+<details><summary>Wireframe products page</summary>
+
+![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-products-pp5-1.png)
+</details>
+
+<details><summary>Wireframe products details page</summary>
+
+![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-products-detail-pp5-1.png)
+</details>
+
+
+<details><summary>Wireframe Profile</summary>
+
+![Wireframe Home](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/wireframes/Wireframe-profile-pp5-1.png)
+</details>
+
+
