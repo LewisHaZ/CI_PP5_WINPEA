@@ -43,6 +43,15 @@ a {
     background-size: cover;
 }
 
+/* animation for blog posts to expand when hovered */
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
 
 /* brand ethos */
 /* This section includes the about section & its content */
