@@ -9,113 +9,233 @@
 
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/accounts/signup/</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/accounts/login/</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/contactus/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/bag/</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/visit_store</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/blog/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Tote</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Crossbody</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Shoulder</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Mini</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Tote,Crossbody,Shoulder,Mini</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Rings</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Necklaces</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Bracelets</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Rings,Necklaces,Bracelets</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=New%20Arrivals</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Deals</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=Clearance</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/?category=New%20Arrivals,Deals,Clearance</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/accounts/password/reset/</loc>
-  <lastmod>2023-11-24T10:15:37+00:00</lastmod>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/we-need-you/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/welcome-post/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/the-influence-of-silver-in-jewellery/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/crafting-style/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/blog/?page=2</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/14/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/8/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/9/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/12/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/15/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/11/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/1/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/10/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/6/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/2/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/7/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/13/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/4/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/products/5/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/spruce-up-your-wardrobe/</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pp5-winpea-c20cdf8bb1f3.herokuapp.com/blog/?page=1</loc>
+  <lastmod>2023-11-27T21:52:00+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 

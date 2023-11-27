@@ -275,7 +275,7 @@ It contains an email sign up form and useful links as well as contact informatio
   - Cancel Booking
   - Product List
   - Product Expanded
-  - Basket
+  - Bag
   - Checkout
   - Checkout Success
   - Blog
