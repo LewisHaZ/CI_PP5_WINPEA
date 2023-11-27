@@ -1,4 +1,5 @@
-<footer class="text-center text-lg-start bg-black text-muted mt-5">
+
+<footer class="footer text-center text-lg-start bg-black text-muted mt-5">
     <!-- Section: Mailchimp Signup Form -->
     <div class="d-flex row justify-content-center justify-content-lg-between p-4 border-bottom">
       <div id="mc_embed_signup" class="mx-auto">
@@ -76,7 +77,7 @@
               {% endif %}
             </p>
             <p>
-              <a href="#" class="text-reset">Contact Us</a>
+              <a href="{% url 'contact_us' %}" class="text-reset">Contact Us</a>
             </p>
             <p>
               <a href="https://www.freeprivacypolicy.com/live/0b7d0439-059d-4958-b128-760f32c78eb6"
@@ -106,6 +107,7 @@
     </div>
   
   </footer>
+
   <div class="btt-button shadow-sm rounded-0 border border-black">
     <a class="btt-link d-flex h-100">
         <i class="fas fa-arrow-up text-white mx-auto my-auto"></i>
