@@ -298,8 +298,196 @@ I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable 
 
 <details><summary>See AWS Images</summary>
 
-![aws bucket](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws-s3-bucket.png)
-![aws media](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws-s3-media.png)
-![aws static](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws-s3-static.png)
+![aws bucket](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws/aws-s3-bucket.png)
+![aws media](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws/aws-s3-media.png)
+![aws static](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/aws/aws-s3-static.png)
 </details>
 <hr>
+
+## Database
+
+I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
+
+## Models  
+
+### User Model
+
+| Key        | Name         | Type        |
+| ---------- | ------------ | ----------- |
+| PrimaryKey | user_id      | AutoField   |
+|            | password     | VARCHAR(45) |
+|            | last_login   | VARCHAR(45) |
+|            | is_superuser | BOOLEAN     |
+|            | username     | VARCHAR(45) |
+|            | first_name   | VARCHAR(45) |
+|            | last_name    | VARCHAR(45) |
+|            | email        | VARCHAR(45) |
+|            | is_staff     | BOOLEAN     |
+|            |              |             |
+|            | is_active    | BOOLEAN     |
+|            | date_joined  | VARCHAR(45) |
+
+### User Profile Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | user_profile_id      | AutoField     |
+| ForeignKey | user                 | User model    |
+|            | default_phone_number | CharField[20] |
+|            | default_address1     | CharField[80] |
+|            | default_address2     | CharField[80] |
+|            | default_town_city    | CharField[40] |
+|            | default_county       | CharField[80] |
+|            | default_postcode     | CharField[20] |
+|            | default_country      | CharField[40] |
+
+### Booking Model
+
+| Key        | Name           | Type            |
+| ---------- | -------------- | --------------- |
+| PrimaryKey | booking_id     | AutoField       |
+|            | created_date   | DateTime        |
+|            | requested_date | DateTime        |
+|            | requested_time | CharField[10]   |
+|            | slot           | CharField[10]   |
+| ForeignKey | user           | User model      |
+|            | name           | CharField[50]   |
+|            | email          | EmailField      |
+|            | phone          | PhoneNumField   |
+|            | status         | CharField[50]   |
+
+### Product Model
+
+| Key        | Name        | Type           |
+| ---------- | ----------- | -------------- |
+| PrimaryKey | product_id  | AutoField      |
+|            | name        | CharField[50]  |
+|            | description | TextField      |
+|            | has_sizes   | BooleanField   |
+|            | price       | DecimalField   |
+| ForeignKey | category    | Category model |
+|            | rating      | DecimalField   |
+|            | image       | ImageField     |
+
+### Category Model  
+
+| Key        | Name          | Type      |
+| ---------- | ------------- | --------- |
+| PrimaryKey | category_id   | AutoField |
+|            | name          | Char[254] |
+|            | friendly_name | Char[254] |
+
+### Order Model  
+
+| Key        | Name            | Type               |
+| ---------- | --------------- | ------------------ |
+| PrimaryKey | order_id        | AutoField          |
+|            | order_number    | CharField[40]      |
+| ForeignKey | user_profile    | User profile Model |
+|            | full_name       | CharField[50]      |
+|            | email           | EmailField[254]    |
+|            | phone_number    | CharField[20]      |
+|            | address1        | CharField[80]      |
+|            | address2        | CharField[80]      |
+|            | town_city       | CharField[40]      |
+|            | postcode        | CharField[20]      |
+|            | county          | CharField[80]      |
+|            | country         | CharField[40]      |
+|            | date            | DateTimeField      |
+|            | delivery_cost   | DecimalField[6]    |
+|            | order_total     | DecimalField[10]   |
+|            | grand_total     | DecimalField[10]   |
+|            | original_bag | TextField          |
+|            | stripe_pid      | CharField          |
+
+### OrderLineItem Model  
+
+| Key        | Name             | Type            |
+| ---------- | ---------------- | --------------- |
+| PrimaryKey | OrderLineItem_id | AutoField       |
+| ForeignKey | order            | Order Model     |
+| ForeignKey | product          | Product Model   |
+|            | product_size     | CharField[2]    |
+|            | quantity         | IntegerField    |
+|            | line_item_total  | DecimalField[6] |
+
+### Post Model
+
+| Key        | Name           | Type                |
+| ---------- | -------------- | ------------------- |
+|            | title (unique) | Char[200]           |
+|            | slug (unique)  |                     |
+| PrimaryKey | post_id        | AutoField           |
+| ForeignKey | author         | User model          |
+|            | created_date   | DateTime            |
+|            | updated_date   | DateTime            |
+|            | content        | TextField           |
+|            | featured_image | Cloudinary<br>image |
+|            | excerpt        | TextField           |
+|            | status         | Integer             |
+
+### Comment Model
+
+| Key        | Name         | Type                                   |
+| ---------- | ------------ | -------------------------------------- |
+| ForeignKey | post         | Post model<br>Cascade on<br>delete     |
+|            | name         | CharField[80]                          |
+|            | email        | EmailField                             |
+|            | body         | TextField                              |
+|            | created_date | DateTimeField<br>auto_now_<br>add_true |
+|            | approved     | BooleanField<br>default False          |
+|            |              |                                        |
+|            |              |                                        |
+|            | Meta         | created_on                             |
+
+### ContactUs Model
+
+| Key        | Name         | Type             |
+| ---------- | ------------ | ---------------- |
+| PrimaryKey | message_id   | AutoField        |
+|            | created_date | DateTimeField    |
+| ForeignKey | user         | User model       |
+|            | name         | CharField        |
+|            | email        | EmailField       |
+|            | phone        | PhoneNumberField |
+|            | body         | TextField        |  
+
+##### Back to [top](#table-of-contents)
+<hr>
+
+## Technologies Used
+
+### Languages & Frameworks
+
+- HTML
+- CSS
+- Javascript
+- Python
+- Django
+
+
+### Libraries & Tools
+
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [Balsamiq](https://balsamiq.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Favicon.io](https://favicon.io)
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
+- [Font Awesome](https://fontawesome.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Heroku Platform](https://id.heroku.com/login)
+- [AWS](https://aws.amazon.com/)
+- [jQuery](https://jquery.com)
+- [Postgres](https://www.postgresql.org/)
+- [Summernote](https://summernote.org/)
+- Validation:
+  - [WC3 Validator](https://validator.w3.org/)
+  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+  - [JShint](https://jshint.com/)
+  - [CI Python Liner(PEP8)](https://pep8ci.herokuapp.com/)
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+  - [Wave Validator](https://wave.webaim.org/)
+
+##### Back to [top](#table-of-contents)
