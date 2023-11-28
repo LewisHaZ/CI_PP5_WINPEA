@@ -491,3 +491,176 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
   - [Wave Validator](https://wave.webaim.org/)
 
 ##### Back to [top](#table-of-contents)
+
+### Search Engine Optimisation (SEO)
+I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
+
+
+<details><summary>See feature image</summary>
+
+![SEO](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-seo.png)
+</details>
+
+
+### Home page
+- Home page includes nav bar at the top, main content body in the center and a footer at the bottom.
+
+
+<details><summary>See feature images</summary>
+
+![Home page](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-home-1.jpg)
+![Home page](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-home-2.png)
+</details>
+
+### Logo
+- A custom logo and a small tagline for the business.
+- User stories covered: 6, 7
+
+<details><summary>See feature image</summary>
+
+![Logo](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-logo.png)
+</details>
+
+### Navigation
+- Fully Responsive.
+- On small screens switches to hamburger menu.
+- Indicates login/logout in status.
+- displayed on all pages.  
+- User stories covered: 6, 7
+
+<details><summary>See feature images</summary>
+
+![Navigation](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-nav.png)
+</details>
+
+### Footer
+- Contains social media links, privacy policy, and copyright.
+- displayed across all pages.  
+- User stories covered: 6, 7
+
+<details><summary>See feature images</summary>
+
+![Footer](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-footer.png)
+</details>
+
+### Mailing List Sign Up
+- Mailchimp signup for email mailing list.  
+
+<details><summary>See feature images</summary>
+
+![Mailing](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-mailing-list-sign-up.png)
+</details>
+
+### Sign up / Register
+- Allow users to register an acoount.
+- Allow users to navigate back to login back if they have account
+- User stories covered: 1, 9
+
+<details><summary>See feature image</summary>
+
+![Signup](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sign-up.png)
+</details>
+
+### Sign In
+- User can sign in.
+- User can recover their account if they forgot their details
+- User stories covered: 2, 3, 9
+
+<details><summary>See feature images</summary>
+
+![Signin](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sign-in.png)
+</details>
+
+### Sign Out
+- Allows the user to securely sign out.
+- Ask user if they are sure they want to sign out.  
+- User stories covered: 2, 8, 9
+
+<details><summary>See feature image</summary>
+
+![Sign out](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sign-out.png)
+</details>
+
+
+### All Products
+- Allows the user to view all the products available.
+- User stories covered: 12
+
+<details><summary>See feature image</summary>
+
+![All products](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-all-products.jpg)
+</details>
+
+
+### Products Detail
+- Allows the user to view details of a product 
+- User stories covered: 13
+
+<details><summary>See feature image</summary>
+
+![Products Detail](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-product-detail.png)
+</details>
+
+
+### Book a visit store slot
+- Allows the user to book a slot to visit the Winpea Store
+- Messages are displayed if the data is not valid such as phone number is not the correct format and the email address is not valid.  
+- User stories covered: 34
+
+<details><summary>See feature images</summary>
+
+![Book a slot](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-booking-form.png)
+</details>
+
+
+### My Slots/Bookings
+- Allows the user to see their bookings. 
+- User stories covered: 37
+
+<details><summary>See feature image</summary>
+
+![Slots](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-booking-list.png)
+</details>
+
+
+### Edit Booking
+- Allows the user to edit their bookings.  
+- User stories covered: 35
+
+<details><summary>See feature image</summary>
+
+![Edit Booking](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-booking-edit.png)
+</details>
+
+### Cancel Booking
+- Allows the user to cancel their bookings.  
+- User stories covered: 36
+
+<details><summary>See feature image</summary>
+
+![Cancel Booking](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-booking-cancel.png)
+</details>
+
+
+### Alert Box
+- Allows the user to see relevant alerts.  
+- User stories covered: 8
+
+<details><summary>See feature image</summary>
+
+![Edit Booking](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-alert.png)
+</details>
+
+### Sort
+- Allows the user to sort the listed products.
+- Allows the user to view a list of options for a product type
+- The user can choose to sort on the product page to order products by price, rating and alphabetically
+- User stories covered: 16, 17
+
+<details><summary>See feature images</summary>
+
+![Sort1](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sort-1.png)
+![Sort2](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sort-2.png)
+![Sort3](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sort-3.png)
+</details> 
+
