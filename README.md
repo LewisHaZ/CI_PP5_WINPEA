@@ -926,4 +926,186 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bag-views.png">
 </details>
 
+<hr><summary>Blog</summary>
 
+<details><summary>admin.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-blog-admin.png">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-blog-forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-blog-models.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-blog-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-blog-views.png">
+</details>
+
+<hr><summary>Book a slot</summary>
+
+<details><summary>admin.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bookaslot-admin.png">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bookaslot-forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bookaslot-models.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bookaslot-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bookaslot-views.png">
+</details>
+
+<hr><summary>Checkout</summary>
+
+<details><summary>admin.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-admin.png">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-models.png">
+</details>
+
+<details><summary>signals.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-signals.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-views.png">
+</details>
+
+<details><summary>webhook_handler.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-webhook-handler.png">
+</details>
+
+<details><summary>webhooks.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-checkout-webhooks.png">
+</details>
+
+<hr><summary>contactus</summary>
+
+<details><summary>admin.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-contactus-admin.png">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-contactus-forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-contactus-models.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-contactus-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-contactus-views.png">
+</details>
+
+<hr><summary>home</summary>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-home-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-home-views.png">
+</details>
+
+<hr><summary>products</summary>
+
+<details><summary>admin.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-products-admin.png">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-products-forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-products-models.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-products-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-products-views.png">
+</details>
+
+<details><summary>widgets.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-products-widgets.png">
+</details>
+
+<hr><summary>profiles</summary>
+
+<details><summary>forms.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-profiles-forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-profiles-models.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-profiles-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-profiles-views.png">
+</details>
+
+<hr><summary>winpea ecommerce</summary>
+
+<details><summary>asgi.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-winpea-asgi.png">
+</details>
+
+<details><summary>settings.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-winpea-settings.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-winpea-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-winpea-views.png">
+</details>
+
+<details><summary>wsgi.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-winpea-wsgi.png">
+</details>
+
+<hr><summary>root</summary>
+
+<details><summary>custom_storages.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-root-custom-storages.png">
+</details>
+
+##### Back to [top](#table-of-contents)<hr> 

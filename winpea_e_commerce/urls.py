@@ -32,4 +32,3 @@ urlpatterns = [
     path('', include('blog.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'winpea_e_commerce.views.handler404'
-

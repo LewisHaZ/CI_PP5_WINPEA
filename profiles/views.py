@@ -1,4 +1,4 @@
-# 3RD PARTY IMPORTS 
+# 3RD PARTY IMPORTS
 from django.shortcuts import render, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -6,6 +6,7 @@ from django.contrib.auth.decorators import login_required
 from .models import UserProfile
 from .forms import UserProfileForm
 from checkout .models import Order
+
 
 @login_required
 def profile(request):
@@ -18,7 +19,8 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile Updated Successfully')
         else:
-            messages.error(request, 'Update failed. Please ensure form is valid.')
+            messages.error(
+                request, 'Update failed. Please ensure form is valid.')
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
@@ -32,10 +34,13 @@ def profile(request):
 
     return render(request, template, context)
 
+
 """
 Check for orders and if there's any
 displays them on the profile page
 """
+
+
 def order_history(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)
 

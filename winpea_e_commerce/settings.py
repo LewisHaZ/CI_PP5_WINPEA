@@ -89,7 +89,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -109,7 +109,7 @@ AUTHENTICATION_BACKENDS = (
     # Needed to login by username in django admin, regardless of 'allauth'abs
     'django.contrib.auth.backends.ModelBackend',
 
-    #'allauth' specific authentication methods, such as login by e-mail
+    # 'allauth' specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 )
 
@@ -140,8 +140,19 @@ WSGI_APPLICATION = 'winpea_e_commerce.wsgi.application'
 #         }
 #     }
 
-DATABASES = {
-        'default': dj_database_url.parse('postgres://ktbziuin:Cg5IDFCRvJ-tJ5UZm5dijL8JfnUPaWOf@flora.db.elephantsql.com/ktbziuin')
+if 'DATABASE_URL' in os.environ:
+
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    }
+
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
     }
 
 # Password validation
@@ -149,16 +160,23 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': (
+             'django.contrib.\
+             auth.password_validation.UserAttributeSimilarityValidator',)
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': (
+            'django.contrib.auth.password_validation.MinimumLengthValidator',)
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': (
+             'django.contrib.\
+             auth.password_validation.CommonPasswordValidator',)
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': (
+             'django.contrib.\
+             auth.password_validation.NumericPasswordValidator',)
     },
 ]
 
@@ -215,8 +233,6 @@ if 'USE_AWS' in os.environ:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
@@ -236,5 +252,3 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
-
-

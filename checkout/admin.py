@@ -7,17 +7,20 @@ class OrderLineItemAdminInline(admin.TabularInline):
     model = OrderLineItem
     readonly_fields = ('lineitem_total',)
 
+
 """
 A class for all the fields
 that will be used in the payment/checkout
 """
+
+
 class OrderAdmin(admin.ModelAdmin):
     inlines = (OrderLineItemAdminInline,)
 
     readonly_fields = ('order_number', 'date',
-                    'delivery_cost', 'order_total',
-                    'grand_total', 'original_bag',
-                    'stripe_pid')
+                       'delivery_cost', 'order_total',
+                       'grand_total', 'original_bag',
+                       'stripe_pid')
 
     fields = ('order_number', 'user_profile', 'date', 'full_name',
               'email', 'phone_number', 'country',
@@ -32,5 +35,5 @@ class OrderAdmin(admin.ModelAdmin):
 
     ordering = ('-date',)
 
-admin.site.register(Order, OrderAdmin)
 
+admin.site.register(Order, OrderAdmin)
