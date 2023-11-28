@@ -9,6 +9,8 @@ from products.models import Product
 Function to store and collect
 all contents of the bag
 """
+
+
 def bag_contents(request):
 
     bag_items = []

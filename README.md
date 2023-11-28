@@ -897,8 +897,33 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <details><summary>stripe_elements.js</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/js/validation-stripe-elements-js-hint.png">
 </details>
+- One variable undefined due to it being took from another script
 
 <details><summary>countryfield.js</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/js/validation-country-field-js-hint.png">
 </details>
+
+##### Back to [top](#table-of-contents)<hr>
+
+## PEP8 Validation
+[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.
+
+<summary>Bag</summary>
+
+<details><summary>contexts.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bag-contexts.png">
+</details>
+
+<details><summary>bag_tools.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bag-bag-tools.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bag-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-bag-views.png">
+</details>
+
 
