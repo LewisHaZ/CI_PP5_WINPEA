@@ -826,3 +826,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 The W3C Markup Validation Service was used to validate the HTML of the website.  
 
+### Home  
+
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2F)
+- No Errors Found
