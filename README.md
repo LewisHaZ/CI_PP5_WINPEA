@@ -848,7 +848,35 @@ products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpe
 
 ### Products detail page
 
-products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fproducts%2F)
+products-detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fproducts%2F1%2F)
+- No Errors Found
+
+### Bag
+
+bag.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fbag%2F)
+- No Errors Found
+
+### Checkout
+
+checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fcheckout%2F)
+- No Errors Found
+
+### Contact Us
+
+contactus.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fcontactus%2F)
+- No Errors Found
+
+### Sign up
+accounts/signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Faccounts%2Fsignup%2F)
+- No Errors Found
+
+### Login
+accounts/login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Faccounts%2Flogin%2F)
+- No Errors Found
+
+### 404  
+
+404.html [results]()
 - No Errors Found
 
 
