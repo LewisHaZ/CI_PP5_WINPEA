@@ -830,3 +830,25 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2F)
 - No Errors Found
+
+### Book
+
+visit_store.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fvisit_store)
+- No Errors Found
+
+### Blog
+
+blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fblog%2F)
+- No Errors Found
+
+### Products page
+
+products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fproducts%2F)
+- No Errors Found
+
+### Products detail page
+
+products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5-winpea-c20cdf8bb1f3.herokuapp.com%2Fproducts%2F)
+- No Errors Found
+
+
