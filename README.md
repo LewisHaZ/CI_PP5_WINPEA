@@ -879,4 +879,17 @@ accounts/login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpp5
 404.html [results]()
 - No Errors Found
 
+##### Back to [top](#table-of-contents)<hr> 
 
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+<details><summary>base.css</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/css/validation-base-css.png">
+
+<details><summary>profile.css</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/css/validation-base-css.png">
+
+<details><summary>checkout.css</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/css/validation-base-css.png">
+</details> 
