@@ -1230,3 +1230,375 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>Profiles</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-profiles.png">
 </details>
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Testing
+
+
+### Device Testing & Browser compatibility
+
+The site uses to test on various real world devices was [BrowserStack](https://www.browserstack.com/)  
+
+This allowed me to test on real devices and not just device emulators.
+
+The following devices were used to test my site:
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Bugs
+
+1.	As a Shopper / Site User	I CAN register for an account	SO THAT I CAN have an account and view my profile  
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| Sign Up | Click My account button and select register, user is brought to the sign up page| User is brought to the sign up page | Works as expected 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-1a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-1b.png">
+</details>
+
+2.	As a Shopper / Site User	I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage  
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| Sign In | Click My account button and select login, user is brought to the sign in page| User is brought to the sign in page | Works as expected
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-1a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-2b.png">
+</details>
+
+3.	As a Shopper / Site User	I CAN recover my password	SO THAT I CAN set a new password if I forgot it
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Reset Password | Click my account button and select login, user is brought to the sign in page, click forgot password to go to password reset page | User is brought to password reset page | Works as expected 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-1a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-2b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-3a.png">
+</details>
+
+4.  As a Shopper / Site User I CAN have a profile SO THAT I CAN store my information for faster checkouts in the future
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Profile | From the Nav click the my account icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-4a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-4b.png">
+</details>
+
+5. As a Shopper / Site User I CAN navigate across the site SO THAT I CAN can access all parts of the site
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar | Click on any link in the navbar to be brought to a relevant page, bags for example | Be brought to shop to view all products after clicking all products in the navbar | Works as expected 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-5a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-5b.png">
+</details>
+
+6. As a Shopper / Site User	I CAN use a navbar, footer, and social icons  SO THAT I CAN navigate the site, access menus, and access socials 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Winpea Instagram page | Works as expected
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-6.png">
+</details>
+
+7. As a Shopper / Site User	I CAN be notified of my actions	SO THAT I CAN be aware the action was completed successfully or not  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Alerts | Add an item from the shop to the basket | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-7a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-7b.png">
+</details>
+
+8. As a Shopper / Site User	I CAN visit the shop SO THAT I CAN view all products available 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Shop/all products | Click shop in the navbar, select all products | User is then brought to the all products page of the shop | Works as expected
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-8a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-8b.png">
+</details>
+
+9. As a Shopper / Site User	I CAN view my bag and total cost at any time	so I am aware of what I am buying and it's cost  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Bag | Click the bag icon in the navbar | User is brought to the bag page where all products in bag are displayed along with their price and total cost | Works as expected 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-9a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-9b.png">
+</details>
+
+10. As a Shopper / Site User	I CAN view a category/list of products	SO THAT I CAN select a product to purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Categories | Select a category on the side panel, select jewellery and bracelets   |  User is brought to the selected category of product and all products are listed | Works as expected 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-10a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-10b.png">
+</details>
+
+11. As a Shopper / Site User	I CAN view an individual product details SO THAT I CAN view a more detailed view of the product 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Products Detail | Click on any item image in the shop, or the view button     |  User is brought to the product detail page where product details are displayed | Works as expected
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-11a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-11b.png">
+</details>
+
+12. As a Shopper / Site User	I CAN search for a product by name or description	SO THAT I CAN find a certain product
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Search | Search box in the navigation bar, input keyword to search such as "pink", click search | All items with the relevant keyword will be displayed | Works as expected
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-12a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-12b.png">
+</details>
+
+13. As a Shopper / Site User	I CAN sort by price low to high and high to low	SO THAT I CAN view products according to my budget 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sort | From the shop page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-13a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-13b.png">
+</details>
+
+14. As a Shopper / Site User	I CAN use a card as the payment method SO THAT I CAN complete my purchase 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Checkout | From the basket select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-14a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-14b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-14c.png">
+</details>
+
+15. As a Shopper / Site User	I CAN select the size and quantity of a product	SO THAT I CAN select a size and quantity to my needs  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Product Details | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-15a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-15b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-15c.png">
+</details>
+
+16. As a Shopper / Site User	I CAN adjust item quantity in my bag	SO THAT I CAN increase or reduce item count according to my needs
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Bag | From the bag press the increase/ decrease button to desired number, click update | The bag will update with the desired quantity | Works as expected 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-16a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-16b.png">
+</details>
+
+17. As a Shopper / Site User	I CAN receive order confirmation SO THAT I CAN be notified of a successful order 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Alerts | Upon a successful checkout an alert will be visible to the user | Alert pops up with the order details | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-17.png">
+</details>
+
+18. As a Store Owner / Admin	I CAN add a product SO THAT I CAN add new products to the shop 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Add Product | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected  
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-18a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-18b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-18c.png">
+</details>
+
+19. As a Store Owner / Admin	I CAN edit a product SO THAT I CAN edit existing products in the shop  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Edit Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-19a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-19b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-19c.png">
+</details>
+
+20. As a Store Owner / Admin	I CAN delete a product SO THAT I CAN delete existing products from the shop 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Delete Product  | From product detail as an admin account, find a delete button on the page, click delete | The product is removed from the store | Works as expected | 
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-20a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-20b.png">
+</details>
+
+21.  As a Store Owner / Admin	I CAN manage bookings SO THAT I CAN approve or deny bookings
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Manage bookings | From the admin panel on an admin account, I can view all bookings, and manage them | customers have their bookings confirmed or denied | Works as expected |
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-21a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-21b.png">
+</details>
+
+22. As a Store Owner / Admin	I CAN manage blog posts SO THAT I CAN keep the website's content safe for all
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Manage blog | From the admin panel on an admin account, I can view all blog posts/comments and manage them | users have their comments removed if they are explicit | Works as expected |
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-22a.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-22b.png">
+</details>
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| Increment and decrement product quantity in basket not working | Increment and decrement buttons being linked to jQuery script solved this |
+| Webhooks not working | Endpoint was not fully configured, adding the correct settings resolved this |
+| Payment intent not being created | Both local and deployed endpoints had incorrect initial settings which was corrected and allowed the payment intent to succeed |
+| Content for login page being stuck under the header | Adding padding to the content allowed for the login page to be seen properly on screen |
+
+## Deployment  
+### AWS S3 Bucket Setup  
+
+To set up an AWS S3 bucket:
+
+1. Sign in to the AWS Management Console and open the Amazon S3 console.
+2. Click on the "Create Bucket" button.
+3. Enter a unique name for your bucket, and select the region where you want the bucket to be located.
+4. Configure any additional options, such as versioning, object-level logging, and object tagging, as needed.  
+5. Click on the "Create" button to create the bucket.
+6. Set up the appropriate permissions for the bucket, such as access control lists (ACLs) and bucket policies, to control who can access the data in the bucket.
+7. Upload files to the bucket using the AWS S3 console, the AWS S3 CLI, or the AWS S3 SDK.
+8. Access your files through the AWS S3 Console, AWS S3 CLI, or the AWS S3 SDK.
+
+### Stripe Payments
+
+To get started with Stripe:
+
+1. Register for a Stripe account at stripe.com
+2. Log into your Stripe account and navigate to the Developers section
+3. In the Developers section, locate the API keys section and take note of the publishable and secret keys 
+4. Create environment variables in your local environment and on Heroku, such as STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY, with the values of the publishable and secret keys
+5. Return to the Developers section of your Stripe account and click on the Webhooks tab
+6. Create a webhook with the URL of your website, such as https://example.com/checkout/wh/
+7. Choose the events you want to receive, such as payment_intent.payment_failed and payment_intent.succeeded
+8. Take note of the key generated for this webhook
+9. Create an environment variable, such as STRIPE_WH_SECRET, with the value of the webhook secret key on your local environment and Heroku
+10. Test the webhook to ensure it is working properly and troubleshoot any issues that may arise.
+
+### Heroku
+
+[Official Page](https://devcenter.heroku.com/articles/git) (Ctrl + click)
+
+This application has been deployed from Github using Heroku. Here's how:
+
+1. Create an account at heroku.com
+2. Create an app, give it a name for such as ci-pp5-winpea, and select a region
+3. Under resources search for postgres, and add a Postgres database to the app
+
+Heroku Postgres
+1. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
+2. Install the plugins dj-database-url and psycopg2-binary.
+3. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
+4. Create a Procfile with the text: web: gunicorn winpea_e_commerce.wsgi
+5. In the settings.py ensure the connection is to the Heroku postgres database, no indentation if you are not using a seperate test database.
+6. Ensure debug is set to false in the settings.py file
+7. Add localhost, and (YOUR_APP_NAME).herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+8. Run "python3 manage.py showmigrations" to check the status of the migrations
+9. Run "python3 manage.py migrate" to migrate the database
+10. Run "python3 manage.py createsuperuser" to create a super/admin user
+11. Run "python3 manage.py loaddata categories.json" on the categories file in products/fixtures to create the categories - IF NEEDED -
+12. Run "python3 manage.py loaddata products.json" on the products file in products/fixtures to create the products - IF NEEDED -
+13. Install gunicorn and add it to the requirements.txt file using the command pip3 freeze > requirements.txt
+14. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a (YOUR_APP_NAME)
+15. Ensure the following environment variables are set in Heroku
+16. Connect the app to GitHub, and enable automatic deploys from main if you wish to do so
+17. Click deploy to deploy your application to Heroku for the first time
+18. Click on the link provided to access the application
+19. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+<hr>
+
+### Fork Repository
+To fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+<hr>
+
+### Clone Repository
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Credits
+
+### Code  
+- Code Institute and their walkthrough for the bag and checkout app.
+- Code Institute Slack community for guidance on many of my bug fixes.
+- Tutor support for guiding me on many occasions.
+- Alumni Aaron Beale for the README structure.
+
+### Media
+[Pexels](https://www.pexels.com/)
+
+## Acknowledgements
+
+### Special thanks to the following:
+- My Mentor Mo Shami 
+- Code Institute Slack Community
+- Code Institute Tutor Support
+- My wife for the project idea
+
