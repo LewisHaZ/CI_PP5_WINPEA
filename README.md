@@ -191,9 +191,11 @@ Winpea uses Mailchimp to manage its mailing list. By joining the mailing list, u
 | 36 | Shopper / Site User | delete a slot booking | delete a slot booking if I need to cancel |
 | 37 | Shopper / Site User | view my slot bookings | view my slot booking |
 
-### Kanbans for User Stories
+### Kanbans and Epics for User Stories
 - GitHub Kanban was used to track all open user stories
 - Todo, In Progress, Done & won't be completed headings were used in the kanban
+- Labels were also used to give an indication of the priority level
+- Milestones were used to track each type of development and its issues within
 
 
 <details><summary>Kanbans Overview</summary>
@@ -209,6 +211,12 @@ Winpea uses Mailchimp to manage its mailing list. By joining the mailing list, u
 <details><summary>User Story Incomplete</summary>
 
 ![Kanban Overview](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/agile/kanban-user-story-2.png)
+</details>
+
+<details><summary>Milestones Overview</summary>
+
+![Milestone](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/agile/epic-overview-1.png)
+![Milestone](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/agile/epic-overview-2.png)
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -1188,7 +1196,7 @@ Performance, best practices and SEO was tested using Lighthouse.
 </details>
 
 <details><summary>Products detail</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-prodcuts-detail.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-products-detail.png">
 </details>
 
 <details><summary>Booking List</summary>
@@ -1248,12 +1256,12 @@ The following devices were used to test my site:
 
 ##### Back to [top](#table-of-contents)<hr>
 
-## Bugs
+## Manual testing
 
 1.	As a Shopper / Site User	I CAN register for an account	SO THAT I CAN have an account and view my profile  
 
-| **Bug** | **Fix** |
-| ------- | ------- |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
 | Sign Up | Click My account button and select register, user is brought to the sign up page| User is brought to the sign up page | Works as expected 
 
 <details><summary>See Images</summary>
@@ -1263,8 +1271,8 @@ The following devices were used to test my site:
 
 2.	As a Shopper / Site User	I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage  
 
-| **Bug** | **Fix** |
-| ------- | ------- |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
 | Sign In | Click My account button and select login, user is brought to the sign in page| User is brought to the sign in page | Works as expected
 
 <details><summary>See Images</summary>
@@ -1335,7 +1343,7 @@ The following devices were used to test my site:
 
 <details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-8a.png">
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-8b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-8b.jpg">
 </details>
 
 9. As a Shopper / Site User	I CAN view my bag and total cost at any time	so I am aware of what I am buying and it's cost  
@@ -1357,7 +1365,7 @@ The following devices were used to test my site:
 
 <details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-10a.png">
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-10b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-10b.jpg">
 </details>
 
 11. As a Shopper / Site User	I CAN view an individual product details SO THAT I CAN view a more detailed view of the product 
@@ -1390,7 +1398,7 @@ The following devices were used to test my site:
 
 <details><summary>See Images</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-13a.png">
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-13b.png">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/manual-testing/user-story-13b.jpg">
 </details>
 
 14. As a Shopper / Site User	I CAN use a card as the payment method SO THAT I CAN complete my purchase 
