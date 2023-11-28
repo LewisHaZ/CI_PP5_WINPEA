@@ -1114,3 +1114,70 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.  
 - All pages returned 0 errors.  
 - All alerts presented were for redundant links whichweres taken into account during development.
+
+<details><summary>Home</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-home.jpg">
+</details>
+
+<details><summary>Products</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-products.jpg">
+</details>
+
+<details><summary>Products Detail</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-products-detail.PNG">
+</details>
+
+<details><summary>Add a product</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-home.PNG">
+</details>
+
+<details><summary>Edit a product</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-home.PNG">
+</details>
+
+<details><summary>Bag</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-home.PNG">
+</details>
+
+<details><summary>Checkout</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Checkout success</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Blog</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Blog Expanded</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Contact</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Profile</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Sign Up</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Sign In</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>Sign Out</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+<details><summary>404</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+</details>
+
+##### Back to [top](#table-of-contents)<hr>  
+
