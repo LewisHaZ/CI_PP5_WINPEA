@@ -29,7 +29,7 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
 {% include "socialaccount/snippets/login_extra.html" %}
 
 {% else %}
-<p>{% blocktrans %}If you have not created an account yet, then please
+<p class="text-black">{% blocktrans %}If you have not created an account yet, then please
 <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 {% endif %}
 
@@ -37,11 +37,11 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
   {% csrf_token %}
   {{ form|crispy}}
   {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+  <input aria-label="login" type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
   <a href="{% url 'home' %}" class="btn btn-out-black rounded-0">Home</a>
   <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
-  <p class="mt-2">
+  <p class="mt-2 text-black">
     <a class="button secondaryAction" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
   </p>
 </form>
