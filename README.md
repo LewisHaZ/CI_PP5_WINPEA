@@ -819,3 +819,10 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 
 ##### Back to [top](#table-of-contents)<hr>
+
+# Validation  
+
+## HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website.  
+
