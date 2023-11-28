@@ -1157,3 +1157,76 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 ##### Back to [top](#table-of-contents)<hr>  
 
+## Lighthouse
+
+Performance, best practices and SEO was tested using Lighthouse.
+
+<details><summary>Home</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-home.png">
+</details>
+
+<details><summary>Book a slot</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-bookaslot.png">
+</details>
+
+<details><summary>Sign Up</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-sign-up.png">
+</details>
+
+<details><summary>Sign In</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-sign-in.png">
+</details>
+
+<details><summary>Sign Out</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-sign-out.png">
+</details>
+
+<details><summary>Products</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-products.png">
+</details>
+
+<details><summary>Products detail</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-prodcuts-detail.png">
+</details>
+
+<details><summary>Booking List</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-booking-list.png">
+</details>
+
+<details><summary>Edit Booking</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-edit-booking.png">
+</details>
+
+<details><summary>Cancel Booking</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-cancel-booking.png">
+</details>
+
+<details><summary>Bag</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-bag.png">
+</details>
+- Accessibility is scored at 80 on this page due to many resources running on this page.
+
+<details><summary>Checkout</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-checkout.png">
+</details>
+- Accessibility is scored at 89 on this page due to many resources running on this page.
+
+<details><summary>Checkout success</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-checkout-success.png">
+</details>
+
+<details><summary>Blog</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-blog.png">
+</details>
+
+<details><summary>Blog expanded</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-blog-expanded.png">
+</details>
+
+<details><summary>Contact</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-contact.png">
+</details>
+
+<details><summary>Profiles</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/lighthouse/validation-lighthouse-profiles.png">
+</details>
