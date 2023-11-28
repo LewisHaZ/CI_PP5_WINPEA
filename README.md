@@ -1108,4 +1108,9 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/validation/py/validation-pep8-root-custom-storages.png">
 </details>
 
-##### Back to [top](#table-of-contents)<hr> 
+##### Back to [top](#table-of-contents)<hr>
+
+## Accessibility  
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.  
+- All pages returned 0 errors.  
+- All alerts presented were for redundant links whichweres taken into account during development.
