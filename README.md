@@ -1245,7 +1245,6 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 ## Testing
 
-
 ### Device Testing & Browser compatibility
 
 The site uses to test on various real world devices was [BrowserStack](https://www.browserstack.com/)  
@@ -1253,6 +1252,27 @@ The site uses to test on various real world devices was [BrowserStack](https://w
 This allowed me to test on real devices and not just device emulators.
 
 The following devices were used to test my site:
+
+<details><summary>Apple iPhone 12</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/browsertack/browserstack-iphone-12.png">
+</details>
+
+<details><summary>Moto G71 5G</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/browsertack/browserstack-moto.png">
+</details>
+
+<details><summary>Google Chrome (v119 latest)</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/browsertack/browserstack-google-chrome.jpg">
+</details>
+
+<details><summary>Mozilla Firefox (v120 latest)</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/browsertack/browserstack-mozilla.jpg">
+</details>
+
+<details><summary>Safari (Monteray v15.3 latest)</summary>
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/browsertack/browserstack-safari.jpg">
+</details>
+
 
 ##### Back to [top](#table-of-contents)<hr>
 
