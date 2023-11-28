@@ -662,5 +662,160 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Sort1](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sort-1.png)
 ![Sort2](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sort-2.png)
 ![Sort3](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-sort-3.png)
+</details>
+
+### Search
+- Allows the user to search for products and view results.
+- User stories covered: 14, 15
+
+<details><summary>See feature image</summary>
+
+![Search](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-search-1.png)
+![Search result](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-search-2.png)
+</details>  
+
+### Bag
+- Allows the user to view the bag with their items.
+- An alert comes up as items are added and removed.  
+- User stories covered: 11, 21
+
+<details><summary>See feature image</summary>
+
+![Bag1](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-bag-1.png)
+![Bag2](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-bag-2.png)
+</details>
+
+### Checkout
+- Allows the user to purchase items in their basket.  
+- User stories covered: 19, 20, 21, 22
+
+<details><summary>See feature image</summary>
+
+![Checkout](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-checkout.png)
+</details>
+
+
+### Stripe
+- Allows the user to use stripe for card payments.  
+- User stories covered: 19
+
+<details><summary>See feature image</summary>
+
+![Stripe](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-stripe.png)
 </details> 
 
+### Order Confirmation
+- Allows the user to receive an confirmation for their order.  
+- User stories covered: 23
+
+<details><summary>See feature image</summary>
+
+![Order Confirmation](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-order-confirmation.png)
+</details>
+
+### Profile
+- Allows the user to update their information and see their order history.  
+- User stories covered: 5
+
+<details><summary>See feature image</summary>
+
+![Profile](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-profile.png)
+</details> 
+
+### Add Product
+- Allows the Admin to add new products.  
+- User stories covered: 25
+
+<details><summary>See feature image</summary>
+
+![Add Product](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-add-product.png)
+</details>
+
+
+### Edit Product
+- Allows the Admin to edit the products.  
+- User stories covered: 26
+
+<details><summary>See feature image</summary>
+
+![Edit Product](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-edit-product.png)
+</details>
+
+
+### Delete Product
+- Allows the Admin to delete products and gives an alert once done.
+- User stories covered: 27
+
+<details><summary>See feature images</summary>
+
+![Delete Product](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-delete-product-1.png)
+![Delete Product alert](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-delete-product-2.png)
+</details>
+
+
+### Blog
+- The blog displays each post made.
+- Paginations is used to display 4 posts per page.
+- This is not covered in the user stories and is an extra feature.
+  
+<details><summary>See feature image</summary>
+
+![Blog](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-blog.png)
+</details>
+
+### Blog Expanded
+- Expands into the selected blog the user wishes to read
+- Displays a featured image uploaded by the poster
+- Registered users can comment on the blog
+- This is not covered in the user stories and is an extra feature.
+  
+<details><summary>See feature image</summary>
+
+![Blog Expanded](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-blog-expanded.png)
+</details>
+
+
+### Comments
+- Comments made are set to pending approval status to ensure nothing bad is displayed
+- Only registered users can comment on a blog post
+- Staff can approve comments via the admin panel on the backend  
+- This is not covered in the user stories and is an extra feature.
+  
+<details><summary>See feature images</summary>
+
+![Comment admin](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-comments-admin.png)
+![Comment approved](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-comments-approved.png)
+</details>
+
+### Contact Us / Send Message
+- A contact page with all contact details listed
+- Users can send a message via the message form  
+  
+<details><summary>See feature images</summary>
+
+![Contact Us](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-contact.png)
+![Message](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-contact-message.png)
+</details>
+
+### Social Media Links
+- A logo and link is used for the Facebook business page and Instagram page.
+- All links open in a new tab to ensure the user is not directed away from the business.
+- noopener, noreferrer, nofollow used to communicate with web crawlers and for security and privacy concerns.  
+- User stories covered: 7
+  
+<details><summary>See feature image</summary>
+
+![Social Media Links](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-footer.png)
+</details>
+
+### Pagination
+- Pagination is used on the site to split content up into easily digestable bits.
+- Ensures the site is kept tidy and not cluttered.  
+  
+<details><summary>See feature images</summary>
+
+![Pagination](https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/features/feature-pagination.png)
+</details>
+
+
+##### Back to [top](#table-of-contents)<hr>
