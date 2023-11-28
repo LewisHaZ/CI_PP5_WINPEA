@@ -1124,59 +1124,35 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 </details>
 
 <details><summary>Products Detail</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-products-detail.PNG">
-</details>
-
-<details><summary>Add a product</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-home.PNG">
-</details>
-
-<details><summary>Edit a product</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-home.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-products-detail.jpg">
 </details>
 
 <details><summary>Bag</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-home.PNG">
-</details>
-
-<details><summary>Checkout</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
-</details>
-
-<details><summary>Checkout success</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-bag.jpg">
 </details>
 
 <details><summary>Blog</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-blog.jpg">
 </details>
 
 <details><summary>Blog Expanded</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-blog-expanded.jpg">
 </details>
 
 <details><summary>Contact</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
-</details>
-
-<details><summary>Profile</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-contact.jpg">
 </details>
 
 <details><summary>Sign Up</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-signup.jpg">
 </details>
 
 <details><summary>Sign In</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
-</details>
-
-<details><summary>Sign Out</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-signin.jpg">
 </details>
 
 <details><summary>404</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-checkout.PNG">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-404.jpg">
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>  
