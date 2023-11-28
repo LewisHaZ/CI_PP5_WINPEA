@@ -1146,10 +1146,12 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <details><summary>Sign Up</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-signup.jpg">
 </details>
+- This page has errors on the form elements that I was unable to fix during development time.
 
 <details><summary>Sign In</summary>
-<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-signin.jpg">
+<img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-login.jpg">
 </details>
+- This page has errors on the form elements that I was unable to fix during development time.
 
 <details><summary>404</summary>
 <img src="https://raw.githubusercontent.com/LewisHaZ/CI_PP5_WINPEA/main/docs/accessibility/accessibility-wave-404.jpg">
