@@ -105,13 +105,13 @@ TEMPLATES = [
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-AUTHENTICATION_BACKENDS = (
+AUTHENTICATION_BACKENDS = [
     # Needed to login by username in django admin, regardless of 'allauth'abs
     'django.contrib.auth.backends.ModelBackend',
 
     # 'allauth' specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
-)
+]
 
 SITE_ID = 1
 
@@ -161,7 +161,8 @@ else:
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': (
-             'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',)
+             'django.contrib.\
+             auth.password_validation.UserAttributeSimilarityValidator',)
     },
     {
         'NAME': (
@@ -169,11 +170,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
     {
         'NAME': (
-             'django.contrib.auth.password_validation.CommonPasswordValidator',)
+             'django.contrib.\
+             auth.password_validation.CommonPasswordValidator',)
     },
     {
         'NAME': (
-             'django.contrib.auth.password_validation.NumericPasswordValidator',)
+             'django.contrib.\
+             auth.password_validation.NumericPasswordValidator',)
     },
 ]
 
